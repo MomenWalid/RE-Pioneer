@@ -109,3 +109,7 @@ const menuButton = document.querySelector('.menuIcon')
 menuButton.onclick = function () {
     document.querySelector('.links').classList.toggle('open')
 }
+
+window.onload = () => {
+    document.querySelector('body').remove()
+}
